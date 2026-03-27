@@ -1,6 +1,9 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 
+/**
+ * Tests produced by Claude
+ */
 public class Transition_Test {
 
   @Before
