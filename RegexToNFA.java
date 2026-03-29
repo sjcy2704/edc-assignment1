@@ -30,7 +30,6 @@ public class RegexToNFA {
 
     for (int i = 0; i < postfix.length(); i++) {
       char c = postfix.charAt(i);
-      System.out.println(c);
 
       if (c == '\0') {
         // Concatenation operator (marked with \0)
