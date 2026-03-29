@@ -61,7 +61,7 @@ public class TransitionTablePrinter {
     if (state.isAccepting()) {
       marker += "*";
     }
-    System.out.print(String.format("%-2s%s", marker, state.getName()));
+    System.out.print(String.format("%-4s", marker + state.getName()));
 
     // Print epsilon transitions
     System.out.print(" " + getTargetStates(state, null));
