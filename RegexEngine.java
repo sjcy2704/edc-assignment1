@@ -26,7 +26,7 @@ public class RegexEngine {
 
     try {
       // get first input as regex
-      String regex = scanner.nextLine().trim();
+      String regex = scanner.nextLine();
 
       if (regex.isEmpty()) {
         System.err.println("Error: Regex is empty");
